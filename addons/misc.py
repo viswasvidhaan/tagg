@@ -4,13 +4,13 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 main_keyboard = InlineKeyboardMarkup()
 main_keyboard.row(InlineKeyboardButton(text='🔖 Get API', callback_data='api'))
-main_keyboard.row(InlineKeyboardButton(text='🌀 Channel', url='https://t.me/V1llN'), InlineKeyboardButton(text='🖥 Developer', url='https://t.me/Staliox'))
+main_keyboard.row(InlineKeyboardButton(text='🌀 Channel', url='https://t.me/obli_world'), InlineKeyboardButton(text='🖥 Developer', url='https://t.me/oblivion_vv'))
 
 cancel_keyboard = InlineKeyboardMarkup()
 cancel_keyboard.row(InlineKeyboardButton(text='🔙', callback_data='cancel'))
 
 join_keyboard = InlineKeyboardMarkup()
-join_keyboard.row(InlineKeyboardButton(text='🌀 Channel', url='https://t.me/V1llN'))
+join_keyboard.row(InlineKeyboardButton(text='🌀 Channel', url='https://t.me/obli_world'))
 
 def timestamp():
     now = datetime.now()
