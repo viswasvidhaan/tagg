@@ -1,2 +1,2 @@
-BOT_TOKEN = "0123456789:abcdefghijklmnopqrstuvwxyz"
-CHANNEL_USERNAME = "username"
+BOT_TOKEN = "6221045717:AAER0VI7SkzDCv7XqIvYQs4zC93yYw11r2E"
+CHANNEL_USERNAME = "obli_world"
